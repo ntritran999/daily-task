@@ -14,9 +14,8 @@ def open_browser():
     pyautogui.typewrite('youtube')
     pyautogui.typewrite(['enter'])
 
-positions = [(924, 575), (1027, 299), (694, 755)]
-
 def main():
+    positions = [(924, 575), (1027, 299), (694, 755)]
     for pos in positions:
         click(pos)
 
